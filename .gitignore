@@ -1,2 +1,6 @@
+# Compiled binaries
 style.css
 style.css.map
+
+# Sensitive files and secrets
+fa.js # Font Awesome kit file
