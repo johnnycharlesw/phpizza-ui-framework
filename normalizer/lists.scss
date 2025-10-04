@@ -1,0 +1,21 @@
+ul, ol {
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+li {
+    display: list-item;
+    margin-bottom: $list-space-in-between-items-vertical;
+}
+
+li::marker {
+    list-style-type: none;
+    width: $list-space-in-between-item-and-label;
+}

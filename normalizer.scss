@@ -1,0 +1,40 @@
+::root{
+    color: CanvasText;
+    view-transition-name: root;
+}
+
+/* HTML elements that should be hidden by default */
+base,
+basefont,
+datalist,
+head,
+link,
+title,
+meta,
+param,
+rp,
+script,
+style,
+template
+{
+    display:none;
+}
+
+/* Elements that were shown if features were not supported in the browser, where all modern browsers support said feature */
+noembed,
+noframes,
+noscript
+{
+    display:none;
+}
+
+
+// Unicode BiDi isolation
+@import 'normalizer/unicode-bidi.scss';
+
+// Lists
+
+@import 'normalizer/lists.scss';
+
+// Links
+@import 'normalizer/links.scss';

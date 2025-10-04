@@ -1,11 +1,18 @@
+@import 'normalizer.scss';
 body{
     font-family: $fonts, sans-serif;
     background-color: $bg-color;
     color: $fg-color;
     user-select:none;
+    @if $enable-apple-compatibility {
+        -webkit-user-select: none;
+    }
     display: block;
 }
 
 body > * {
     user-select:auto;
+    @if $enable-apple-compatibility{
+        -webkit-user-select: none;
+    }
 }

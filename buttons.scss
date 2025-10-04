@@ -11,10 +11,14 @@
     height: $button-size;
     display: inline-block;
     user-select: none;
+    @if $enable-apple-compatibility {
+        -webkit-user-select: none;
+    }
     cursor: pointer;
     font-size: inherit;
     
 }
+
 
 .btn:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover {
     background-color: darken($button-bg-color, 10%);

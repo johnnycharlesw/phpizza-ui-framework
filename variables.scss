@@ -15,7 +15,20 @@ $fieldset-border-size: 1px;
 $fieldset-border-color: #ccc;
 $fieldset-padding: auto;
 $fieldset-margin: 10px;
+$fieldset-margin-inline: 2px;
+$fieldset-padding-block: 0.35em 0.65em;
 
 $label-highlight-color: inherit;
 $label-color: inherit;
 $label-margin-bottom: 0px;
+
+$link-underline-thickness: 1px;
+$link-color: blue;
+$link-color-hover: lightskyblue;
+$link-color-visited: purple;
+$link-color-visited-hover: violet;
+
+$list-space-in-between-items-vertical: 2px;
+$list-space-in-between-item-and-label: 5px;
+
+$enable-apple-compatibility:true;

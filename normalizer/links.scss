@@ -1,0 +1,31 @@
+a:blank{
+    color: $fg-color;
+    text-decoration: none;
+    //qodo-gen no-insert-apple-specific-code Apple's WebKit understands the text-decoration property as-is, no need to define the webkit-specific version.
+}
+
+a:link, a:visited{
+    color: $link-color;
+    text-decoration-color: $link-color;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: $link-underline-thickness;
+    text-decoration-skip: none;
+    text-decoration-skip-ink: none;
+    cursor: pointer;
+}
+
+a:link:hover{
+    color: $link-color-hover;
+    text-decoration-color: $link-color-hover;
+}
+
+a:visited {
+    color: $link-color-visited;
+    text-decoration-color: $link-color-visited;
+}
+
+a:visited:hover{
+    color: $link-color-visited-hover;
+    text-decoration-color: $link-color-visited-hover;
+}

@@ -2,6 +2,9 @@ label, p.label {
     display: inline-block;
     margin-bottom: $label-margin-bottom;
     user-select:contain;
+    @if $enable-apple-compatibility {
+        -webkit-user-select: contain;
+    }
     cursor: default;
     color: $label-color;
     background-color: $label-highlight-color;

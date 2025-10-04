@@ -1,9 +1,20 @@
 div.fieldset, fieldset {
-    border: $fieldset-border-size solid $fieldset-border-color;
+    display:block;
+    //border: $fieldset-border-size groove $fieldset-border-color;
+    border-width: $fieldset-border-size;
+    border-style: groove;
+    border-color: $fieldset-border-color;
     padding: $fieldset-padding;
     margin: $fieldset-margin;
+    margin-inline: $fieldset-margin-inline;
+    padding-block: $fieldset-padding-block;
+    min-inline-size: min-content;
 }
 
 p.legend, legend {
     padding-bottom: 0px;
+    user-select:none;
+    @if $enable-apple-compatibility {
+        -webkit-user-select:none;
+    }
 }
