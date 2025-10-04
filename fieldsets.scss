@@ -3,3 +3,7 @@ div.fieldset, fieldset {
     padding: $fieldset-padding;
     margin: $fieldset-margin;
 }
+
+p.legend, legend {
+    padding-bottom: 0px;
+}
