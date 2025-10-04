@@ -37,6 +37,8 @@ label, p.label {
   margin-bottom: 0px;
   user-select: contain;
   cursor: default;
+  color: inherit;
+  background-color: inherit;
 }
 
 div.fieldset, fieldset {
