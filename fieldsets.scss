@@ -1,0 +1,5 @@
+div.fieldset, fieldset {
+    border: $fieldset-border-size solid $fieldset-border-color;
+    padding: $fieldset-padding;
+    margin: $fieldset-margin;
+}

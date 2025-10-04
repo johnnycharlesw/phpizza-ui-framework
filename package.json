@@ -1,0 +1,23 @@
+{
+  "name": "phpizza-ui-framework",
+  "version": "1.0.0",
+  "description": "The UI framework for PHPizza",
+  "homepage": "https://github.com/johnnycharlesw/phpizza-ui-framework#readme",
+  "bugs": {
+    "url": "https://github.com/johnnycharlesw/phpizza-ui-framework/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnnycharlesw/phpizza-ui-framework.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": "John Charles Woods",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sass": "^1.93.2"
+  }
+}

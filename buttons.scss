@@ -1,0 +1,28 @@
+.btn, button, input[type="button"], input[type="submit"] {
+    border-style: solid;
+    border-width: $button-border-width;
+    border-radius: $button-border-radius;
+    background-color: $button-bg-color;
+    color: $button-fg-color;
+    border-color: $button-border-color;
+    padding: $button-padding;
+    margin: $button-margin;
+    width: $button-size;
+    height: $button-size;
+    display: inline-block;
+    user-select: none;
+    cursor: pointer;
+    font-size: inherit;
+    
+}
+
+.btn:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    background-color: darken($button-bg-color, 10%);
+    //background-color: color.adjust($button-bg-color, $lightness: -10%);
+}
+
+.btn:focus, button:focus {
+    background-color: $button-bg-color;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
