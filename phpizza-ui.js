@@ -6,7 +6,10 @@
  */
 
 
+// Font Awesome kit (download your own for the build! DO NOT SUBMIT YOURS TO THE REPOSITORY!)
 import './fa';
+
+// UI components
 import './labels';
 import './buttons';
 import './fieldsets';
