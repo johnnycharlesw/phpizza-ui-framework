@@ -202,4 +202,51 @@ p.legend, legend {
   -webkit-user-select: none;
 }
 
+<<<<<<< Updated upstream
+=======
+iframe {
+  border-style: solid;
+  box-shadow: 2px 2px 5px grey;
+}
+iframe.embedded-social {
+  box-shadow: 2px 2px 5px grey;
+}
+
+input, textarea {
+  border: 1px solid black;
+  border-radius: 12.5%;
+  padding: 5px;
+  background-color: lightgrey;
+  color: black;
+}
+
+code[class*=language-],
+pre[class*=language-] {
+  color: #e0e0e0;
+  background: #1e1e1e;
+  font-family: Inconsolata, monospace;
+  font-size: 0.9em;
+}
+
+.token.comment {
+  color: #6a9955 !important;
+}
+
+.token.keyword {
+  color: #569cd6 !important;
+}
+
+.token.string {
+  color: #ce9178 !important;
+}
+
+.token.function {
+  color: #dcdcaa !important;
+}
+
+.token.punctuation {
+  color: #808080 !important;
+}
+
+>>>>>>> Stashed changes
 /*# sourceMappingURL=style.css.map */
