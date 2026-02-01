@@ -184,42 +184,6 @@ label, p.label {
   background-color: inherit;
 }
 
-div.fieldset, fieldset {
-  display: block;
-  border-width: 1px;
-  border-style: groove;
-  border-color: #ccc;
-  padding: auto;
-  margin: 10px;
-  margin-inline: 2px;
-  padding-block: 0.35em 0.65em;
-  min-inline-size: min-content;
-}
-
-p.legend, legend {
-  padding-bottom: 0px;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-<<<<<<< Updated upstream
-=======
-iframe {
-  border-style: solid;
-  box-shadow: 2px 2px 5px grey;
-}
-iframe.embedded-social {
-  box-shadow: 2px 2px 5px grey;
-}
-
-input, textarea {
-  border: 1px solid black;
-  border-radius: 12.5%;
-  padding: 5px;
-  background-color: lightgrey;
-  color: black;
-}
-
 code[class*=language-],
 pre[class*=language-] {
   color: #e0e0e0;
@@ -248,5 +212,48 @@ pre[class*=language-] {
   color: #808080 !important;
 }
 
->>>>>>> Stashed changes
+div.fieldset, fieldset {
+  display: block;
+  border-width: 1px;
+  border-style: groove;
+  border-color: #ccc;
+  padding: auto;
+  margin: 10px;
+  margin-inline: 2px;
+  padding-block: 0.35em 0.65em;
+  min-inline-size: min-content;
+}
+
+p.legend, legend {
+  padding-bottom: 0px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+input.textbox {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 400px;
+  font-size: 16px;
+}
+
+ul.list-dash {
+  list-style-type: none;
+}
+ul.list-dash > li::marker {
+  content: "-";
+}
+
+ul.list-disc {
+  list-style-type: disc;
+}
+
+ul.list-plus {
+  list-style-type: none;
+}
+ul.list-plus > li::marker {
+  content: "+";
+}
+
 /*# sourceMappingURL=style.css.map */
