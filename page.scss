@@ -7,6 +7,9 @@ body{
     @if $enable-apple-compatibility {
         -webkit-user-select: none;
     }
+    @if $enable-trident-compatibility {
+        -ms-user-select: none;
+    }
     display: block;
 }
 
@@ -14,5 +17,8 @@ body > * {
     user-select:auto;
     @if $enable-apple-compatibility{
         -webkit-user-select: none;
+    }
+    @if $enable-trident-compatibility{
+        -ms-user-select: auto;
     }
 }
