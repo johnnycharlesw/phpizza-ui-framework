@@ -1,0 +1,17 @@
+ul.list-dash {
+    list-style-type:none;
+    > li::marker {
+        content: '-';
+    }
+}
+
+ul.list-disc {
+    list-style-type: disc;
+}
+
+ul.list-plus {
+    list-style-type: none;
+    > li::marker {
+        content: '+';
+    }
+}
