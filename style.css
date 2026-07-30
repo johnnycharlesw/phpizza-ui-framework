@@ -173,6 +173,7 @@ body {
 body > * {
   user-select: auto;
   -webkit-user-select: none;
+  -ms-user-select: auto;
 }
 
 label, p.label {
@@ -183,6 +184,17 @@ label, p.label {
   cursor: default;
   color: inherit;
   background-color: inherit;
+}
+
+.embedded-video {
+  width: 560px;
+  height: 315px;
+  border-style: none;
+}
+
+.embedded-shortform-video {
+  width: 315px;
+  height: 560px;
 }
 
 input.textbox {
@@ -263,6 +275,13 @@ ul.list-plus {
 }
 ul.list-plus > li::marker {
   content: "+";
+}
+
+.phemoji {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */

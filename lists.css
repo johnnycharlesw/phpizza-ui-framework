@@ -1,0 +1,19 @@
+ul.list-dash {
+  list-style-type: none;
+}
+ul.list-dash > li::marker {
+  content: "-";
+}
+
+ul.list-disc {
+  list-style-type: disc;
+}
+
+ul.list-plus {
+  list-style-type: none;
+}
+ul.list-plus > li::marker {
+  content: "+";
+}
+
+/*# sourceMappingURL=lists.css.map */

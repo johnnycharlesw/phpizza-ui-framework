@@ -1,0 +1,1 @@
+print("PHPizza UI Framework is not meant to be run as a Python module")
