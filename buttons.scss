@@ -30,3 +30,18 @@
     outline: none;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.btn.tab {
+    padding: 0;
+    margin: 0;
+}
+
+.btn.tab.horizontal {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.btn.tab.vertical {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
